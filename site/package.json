@@ -1,0 +1,19 @@
+{
+  "type": "commonjs",
+  "scripts": {
+    "serve": "webpack-dev-server",
+    "build": "node esbuild.mjs",
+    "start": "python3 -m http.server 3000"
+  },
+  "dependencies": {
+    "examples-rust-wasm": "0.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.14.29",
+    "esbuild-plugin-wasm": "^1.0.0",
+    "table": "6.8.0",
+    "webpack": "4.25.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
+  }
+}
