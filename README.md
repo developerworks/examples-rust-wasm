@@ -50,8 +50,6 @@ cd ../site && npm link examples-rust-wasm # cd to site link the npm package
 测试
 
 ```shell
-cd site
-npm install
 node esbuild.mjs
 
 python3 -m http.server 3000      # Python 3
